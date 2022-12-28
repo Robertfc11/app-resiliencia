@@ -1,0 +1,40 @@
+<!--Navbar-->
+<mdb-navbar SideClass="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar intro-fixed-nav  peach-gradient" [containerInside]="false">
+
+    <!-- Navbar brand -->
+    <mdb-navbar-brand><a href="#" class="navbar-brand"><img class="navbar-logo img-fluid rounded" src="../../assets/img/imgLogo/logo.png"></a></mdb-navbar-brand>
+  
+    <!-- Collapsible content -->
+    <links>
+  
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link waves-light texto" [routerLink]="['principal']" mdbWavesEffect><strong>INICIO</strong></a>
+          </li>
+    
+          <li class="nav-item" routerLinkActive="active" >
+            <a class="nav-link waves-light texto" [routerLink]="['articulos']" mdbWavesEffect><strong>ARTÍCULOS</strong></a>
+          </li>
+
+          <li class="nav-item" routerLinkActive="active" >
+            <a class="nav-link waves-light texto" [routerLink]="['preg-frecuentes']" mdbWavesEffect><strong>PREGUNTAS DE AYUDA</strong></a>
+          </li>
+
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link waves-light texto" [routerLink]="['objetivo']" mdbWavesEffect><strong>NOSOTROS</strong></a>
+          </li>
+
+          <li class="nav-item" routerLinkActive="active" >
+            <a class="nav-link waves-light texto" [routerLink]="['contacto']" mdbWavesEffect><strong>CONTACTO</strong></a>
+          </li>
+  
+        </ul>
+        
+       
+    
+      </links>
+      <!-- Collapsible content -->
+  
+  </mdb-navbar>
+  <!--/.Navbar-->
